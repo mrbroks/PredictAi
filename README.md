@@ -18,10 +18,12 @@ Also, you can check our:-
 - Graduation Presentation: https://drive.google.com/file/d/19wGwl8NH9Vh10CLAS5cFjYO6aExDumlI/view?usp=sharing
 
 ### Technologies used 
+- HTML & CSS
+- JavaScript
 - Python
 - Flask
-- JavaScript
-- HTML & CSS
+- TensorFlow
+- Keras
 - MSSQL & SQLAlchemy
 - Git
 
