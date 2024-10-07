@@ -1193,7 +1193,11 @@
      * INSTRUCTION
      */
   
-    .instruction-list { grid-template-columns: repeat(4, 1fr); }
+    .instruction-list { 
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      display: flex;
+     }
   
     .instruction-list > li:nth-child(even) .instruction-card::after {
       display: block;
@@ -1467,12 +1471,15 @@
     
 
   .aboutus-card .card-title {
-    font-size: var(--fs-4);
+    font-size: var(--fs-3);
     margin-block: 25px 15px;
   }
 
 
-  .aboutus-card .card-text { padding-inline: 20px; }
+  .aboutus-card .card-text { 
+    font-size: var(--fs-5);
+    padding-inline: 20px; 
+  }
 
 
   .instruction { overflow: hidden; }
